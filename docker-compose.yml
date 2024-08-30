@@ -4,8 +4,8 @@ x-common:
     &db-environment
     # Do not remove the "&db-password" from the end of the line below, it is important
     # for Panel functionality.
-    MYSQL_PASSWORD: &db-password "CHANGE_ME"
-    MYSQL_ROOT_PASSWORD: "CHANGE_ME_TOO"
+    MYSQL_PASSWORD: &db-password "PutraPanel"
+    MYSQL_ROOT_PASSWORD: "PutraPanel"
   panel:
     &panel-environment
     APP_URL: "http://example.com"
@@ -15,15 +15,15 @@ x-common:
     # Uncomment the line below and set to a non-empty value if you want to use Let's Encrypt
     # to generate an SSL certificate for the Panel.
     # LE_EMAIL: ""
-    HASHIDS_SALT: "CHANGE_ME_TO_A_RANDOM_20_CHAR_STRING"
+    HASHIDS_SALT: "HALO SEMUANYA SELAMAT DATANG"
   mail:
     &mail-environment
-    MAIL_FROM: "noreply@example.com"
+    MAIL_FROM: "matisaya41@gmail.com"
     MAIL_DRIVER: "smtp"
     MAIL_HOST: "mail"
     MAIL_PORT: "1025"
-    MAIL_USERNAME: ""
-    MAIL_PASSWORD: ""
+    MAIL_USERNAME: "Putra"
+    MAIL_PASSWORD: "PutraPanel"
     MAIL_ENCRYPTION: "true"
 
 #
